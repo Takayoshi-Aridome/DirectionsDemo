@@ -38,7 +38,8 @@ export default class DirectionsSearchboxes extends React.Component {
 
 const styles = StyleSheet.create({
     directionsSearchboxes: {
-        marginTop: 'auto',
+        flexDirection: 'column',
+        flexWrap: 'nowrap',
         backgroundColor: 'dodgerblue',
     },
     input: {

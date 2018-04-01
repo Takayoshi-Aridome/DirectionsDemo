@@ -10,12 +10,14 @@
 
  import Directions from './app/screens/Directions';
  import DirectionsSearchboxes from './app/components/DirectionsSearchboxes';
+ import StaticMap from './app/components/StaticMap';
 
 
  const RootStack = StackNavigator(
    {
        Directions: { screen: Directions },
        DirectionsSearchboxes: { screen: DirectionsSearchboxes },
+       StaticMap: { screen: StaticMap },
    },
    { initialRouteName: 'Directions' }
  );
