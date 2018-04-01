@@ -4,8 +4,8 @@ import Sound from 'react-native-sound';
 import RNFetchBlob from 'react-native-fetch-blob';
 import { Buffer } from 'buffer/';
 
-import GoogleDirections from '../../utils/maps/GoogleDirections';
-import IBMCloud from '../../utils/networks/IBMCloud';
+import GoogleDirections from '../utils/maps/GoogleDirections';
+import IBMCloud from '../utils/networks/IBMCloud';
 
 const announce = {
     'name': 'announce',
@@ -18,7 +18,7 @@ const ANNOUNCE_LIST = [
     'こんばんは',
 ];
 
-export default class Directions extends React.Component {
+export default class TestDirections extends React.Component {
     constructor(props) {
         super(props);
 

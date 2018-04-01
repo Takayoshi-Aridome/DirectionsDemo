@@ -8,11 +8,14 @@
  import { View, Text } from 'react-native';
  import { StackNavigator } from 'react-navigation';
 
- import Directions from './app/components/screens/Directions';
+ import Directions from './app/screens/Directions';
+ import DirectionsSearchboxes from './app/components/DirectionsSearchboxes';
+
 
  const RootStack = StackNavigator(
    {
-     Directions: { screen: Directions },
+       Directions: { screen: Directions },
+       DirectionsSearchboxes: { screen: DirectionsSearchboxes },
    },
    { initialRouteName: 'Directions' }
  );
